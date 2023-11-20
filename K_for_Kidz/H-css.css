@@ -1,3 +1,4 @@
+<style>
                         html{
                                         min-height:100%;
                                         width:100%;
@@ -11,7 +12,7 @@
                                 background-position:center center;
                                 overflow:visible;
                            }
-                             .F{
+                             .C{
                                     position: absolute;
                                     top: 50%;
                                     left: 50%;
@@ -19,7 +20,7 @@
                                     transform:rotate(60deg) translate(200px) rotate(-60deg);
                                     opacity:100%;                                  
                               }
-                            .I{
+                            .H{
                                     
                                 position: absolute;
                                 top: 50%;
@@ -28,7 +29,7 @@
                                 transform:rotate(120deg) translate(200px) rotate(-120deg);
                                
                                  }
-                            .H{
+                            .M{
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -36,7 +37,7 @@
                                 transform:rotate(180deg) translate(200px) rotate(-180deg);
                                
                               }
-                             .J{
+                             .G{
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -44,7 +45,7 @@
                                 transform:rotate(240deg) translate(200px) rotate(-240deg);
                              
                               }
-                           .E{
+                           .L{
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -52,7 +53,7 @@
                                 transform:rotate(300deg) translate(200px) rotate(-300deg);
                                
                               }
-                           .G{
+                           .J{
                                
                                     position:absolute;                               
                                     transform:rotate(390deg) translate(120px) rotate(-390deg);
@@ -204,4 +205,5 @@
                 }
                 
         
-                         
+                            
+                </style>
