@@ -1,4 +1,4 @@
-
+  
                         html{
                                         min-height:100%;
                                         width:100%;
@@ -6,13 +6,14 @@
                         }
                            body{
 
-                                background-image: url('Images/kidz_garden.png');
+                                background-image: url('Images/‪kidz_garden.png');
                                 background-repeat: no-repeat;
                                 background-size:100% 100%;
                                 background-position:center center;
                                 overflow:visible;
                            }
-                             .G{
+                             .T{
+                                 
                                     position: absolute;
                                     top: 50%;
                                     left: 50%;
@@ -20,7 +21,7 @@
                                     transform:rotate(60deg) translate(200px) rotate(-60deg);
                                     opacity:100%;                                  
                               }
-                            .H{
+                            .S{
                                     
                                 position: absolute;
                                 top: 50%;
@@ -28,8 +29,8 @@
                                 margin-right: -50%;
                                 transform:rotate(120deg) translate(200px) rotate(-120deg);
                                
-                                 }
-                            .I{
+                              }
+                            .R{
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -37,7 +38,7 @@
                                 transform:rotate(180deg) translate(200px) rotate(-180deg);
                                
                               }
-                             .J{
+                            .Q{
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -45,15 +46,15 @@
                                 transform:rotate(240deg) translate(200px) rotate(-240deg);
                              
                               }
-                           .K{
+                           .P{
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
-                                margin-right: 30%;
+                                margin-right: -50%;
                                 transform:rotate(300deg) translate(200px) rotate(-300deg);
                                
                               }
-                           .L{
+                           .O{
                                
                                     position:absolute;                               
                                     transform:rotate(390deg) translate(120px) rotate(-390deg);
@@ -206,4 +207,4 @@
                 
         
                             
-               
+        
