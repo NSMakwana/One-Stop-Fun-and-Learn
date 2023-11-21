@@ -283,20 +283,6 @@
 
                 }
                 
-                #cross4{
-
-                        margin-left:50%;
-                        margin-top: 43%;
-                        position: absolute;
-                        animation-name:cr4;
-                        animation-duration:4s;
-                        opacity:0%;
-                        animation-play-state: running;
-                        animation-fill-mode: initial;
-                        animation-delay:0s;
-                                           
-
-                }
                 
                 #cross5{
 
@@ -309,7 +295,7 @@
                         animation-play-state: running;
                         animation-fill-mode: initial;
                         animation-delay:0s;
-                                           
+                                        
 
                 }
 
@@ -335,6 +321,7 @@
                                 50%{bottom:300px;opacity:60%;}                               
                                 100%{bottom:1000px;opacity:80%;}
                 }
+                
                 @keyframes cr1{
                                 50%{opacity:100%;}
                                 100%{opacity:0%;}
