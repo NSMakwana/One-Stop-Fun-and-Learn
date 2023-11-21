@@ -9,7 +9,7 @@
                 <div class="container">
 
                         <div class="F">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionA()">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionF()">
                                 <canvas id="F"  style="outline:6px solid black;border:2px solid red;"height="100px" width="100px">
 
                                 </canvas>
@@ -17,7 +17,7 @@
                          </div>
 
                         <div class="I">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height: 0%;" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height: 0%;" onclick="functionI()">
                                 <canvas id="I" style="outline:6px solid black;border:2px solid yellow" height="100px" width="100px">
         
                                 </canvas>
@@ -25,7 +25,7 @@
                         </div>
 
                         <div class="H">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%;position:fixed;" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%;position:fixed;" onclick="functionH()">
                         <canvas id="H" style="outline:6px solid black;border:2px solid blue" height="100px" width="100px">
         
                         </canvas>
@@ -33,7 +33,7 @@
                         </div>
 
                         <div class="J">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionJ()">
                         <canvas id="J" style="outline:6px solid black;border:2px solid green" height="100px" width="100px">
         
                         </canvas>
@@ -41,14 +41,14 @@
                         </div>
 
                         <div class="E">
-                        <button type="button" style="border:none;outline:none;padding:40;line-height:0%" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:40;line-height:0%" onclick="functionE()">
                         <canvas id="E" style="outline:6px solid black;border:2px solid brown" height="100px" width="100px">
                 
                         </canvas>
                         </button>     
                         
                         <div class="G">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionG()">
                         <canvas id="G" style="outline:6px solid black;border:2px solid orange" height="100px" width="100px">
                         
                         </canvas>
@@ -94,6 +94,35 @@
                 </div>
                 <div id="s4">
                 </div>
+        </div>
+        <div class="container_emojies">
+                <div id="s1">
+                </div>
+                <div id="s2">
+                </div>
+                <div id="s3">
+                </div>
+                <div id="s4">
+                </div>
+        </div>
+
+        <div id="cross1"></div>
+        <div id="cross2"></div>
+        <div id="cross3"></div>
+        <div id="cross4"></div>
+        <div id="cross5"></div>
+              
+        
+        <div class="next">
+                <span style='font-size:150px;color:blue;'><a href="F.html">&#129094;</a></span>
+        </div>
+              
+        <div class="prev">
+                <span style='font-size:150px;color:blue;'><a href="D.html">&#129092;</a></span>
+        </div>
+
+        <div class="home">
+                     <a href="1stpage.html"> <img src="Images/home.png" alt="home" height="120px" width="120px"></a>
         </div>
                
                 <script>
@@ -182,7 +211,7 @@
     </script>
 
     <script>
-                function functionA(){
+                function functionE(){
                         var A=document.getElementById("s1");
                         s1.innerHTML='<span style="font-size:100px;">&#128522;</span>';
 
@@ -194,12 +223,50 @@
 
                         var A=document.getElementById("s4");
                         s4.innerHTML='<span style="font-size:100px;">&#128522;</span>';
-
+ 
+                        var snd = new Audio('Recording\A.m4a')//wav is also supported
+                        snd.play()//plays the sound
 
                 }
     </script>
-    
-                
+    <script>
+        function functionF(){
+
+                var B=document.getElementById("cross1");
+                cross1.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+        
+        }
+        function functionI(){
+
+        var B=document.getElementById("cross2");
+        cross2.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+        }
+        function functionH(){
+
+        var B=document.getElementById("cross3");
+        cross3.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+        }
+        function functionJ(){
+
+       var B=document.getElementById("cross4");
+       cross4.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+      }
+      function functionG(){
+
+      var B=document.getElementById("cross5");
+      cross5.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+}
+     </script>
+
+<!-- for refreshing page after every 3sec -->
+
+<script type="text/javascript">
+        window.setTimeout(function(){ document.location.reload(true); }, 3000);
+ </script>      
    
         </body>
 
