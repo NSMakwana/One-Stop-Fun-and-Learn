@@ -6,11 +6,11 @@
                         }
                            body{
 
-                                background-image: url('kidz_garden.png');
+                                background-image: url('Images/kidz_garden.png');
                                 background-repeat: no-repeat;
                                 background-size:100% 100%;
                                 background-position:center center;
-                                overflow:visible;
+                                overflow:hidden;
                            }
                              .D{
                                     position: absolute;
@@ -60,19 +60,20 @@
 
                               }
                             
-                   .container{
+                              .container{
                                 height:600px;
                                 width:600px;
                                 position: absolute;
-                                top: 5%;
+                                top:0;
                                 left: 10%;            
+                                padding-top: 0;
                                            
                              }
                 .apple{
-                        margin-left:65%;
-                        margin-top:10px;
-                        position:fixed;
-                        border:4px solid black;
+                        margin-left:120%;
+                        margin-top:1%;
+                        position:absolute;
+                        border:4px solid rgb(7, 7, 7);
                      
                         }
                      
@@ -85,20 +86,19 @@
                         border:4px solid black;
                 }
                       
-               
                 table{
-                        height:400px;
-                        width:260px;
-                        margin-left:65%;
-                        margin-top:20%;
-                        position:fixed;
+                        height:200px;
+                        width:255px;
+                        margin-left:120%;
+                        margin-top:40%;
+                        position:absolute;
                         border:4px solid black;
                 }
                
                 #y{
                                 background-color: yellow;
-                                position:fixed;
-                                height:117px;
+                                position:relative;
+                                height:100px;
                                 width:113px;
                                 align-items:center;
                                 
@@ -106,34 +106,43 @@
                 #gr{
                                 background-color: green;
                                 position:realtive;
+                                height:100px;
+                                width:113px;
                                 align-items:center;
                   }
                 #b{
                                 background-color: blue;
                                 position: relative;
+                                height:100px;
+                                width:113px;
                                 align-items:center;
                  }
                 #r{
                                 background-color: red;
                                 position: relative;
+                                height:10px;
+                                width:113px;
                                 align-items:center;
                  }
                 #o{
                                 background-color:orange;
                                 position: relative;
+                                height:100px;
+                                width:113px;
                                 align-items:center;
                  }
                 #br{
                                 background-color:brown;
                                 position:relative;
+                                height:100px;
+                                width:113px;
                                 align-items:center;
                  }  
                 #y1{
                                 padding:0;
                                 width:auto;
                                 height:auto;
-                                cursor:pointer;
-                }  
+                   }           
 
 .container_emojies{
 
