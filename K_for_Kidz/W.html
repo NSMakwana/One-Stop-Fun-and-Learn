@@ -10,7 +10,7 @@
                 <div class="container">
 
                         <div class="U">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionA()">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionU()">
                                 <canvas id="U"  style="outline:6px solid black;border:2px solid red;"height="100px" width="100px">
 
                                 </canvas>
@@ -18,7 +18,7 @@
                          </div>
 
                         <div class="C">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height: 0%;" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height: 0%;" onclick="functionC()">
                                 <canvas id="C" style="outline:6px solid black;border:2px solid yellow" height="100px" width="100px">
         
                                 </canvas>
@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="W">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%;position:fixed;" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%;position:fixed;" onclick="functionW()">
                         <canvas id="W" style="outline:6px solid black;border:2px solid blue" height="100px" width="100px">
         
                         </canvas>
@@ -34,7 +34,7 @@
                         </div>
 
                         <div class="S">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionS()">
                         <canvas id="S" style="outline:6px solid black;border:2px solid green" height="100px" width="100px">
         
                         </canvas>
@@ -42,14 +42,14 @@
                         </div>
 
                         <div class="B">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionB()">
                         <canvas id="B" style="outline:6px solid black;border:2px solid brown" height="100px" width="100px">
                 
                         </canvas>
                         </button>     
                         
                         <div class="Z">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="alert('Hello world!')">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionZ()">
                         <canvas id="Z" style="outline:6px solid black;border:2px solid orange" height="100px" width="100px">
                         
                         </canvas>
@@ -95,7 +95,18 @@
                 <div id="s4">
                 </div>
         </div>
-               
+
+        <div class="next">
+                <span style='font-size:150px;color:blue;'><a href="X.html">&#129094;</a></span>
+        </div>
+              
+        <div class="prev">
+                <span style='font-size:150px;color:blue;'><a href="V.html">&#129092;</a></span>
+        </div>
+
+        <div class="home">
+                <a href="1stpage.html"> <img src="Images/home.png" alt="home" height="120px" width="120px"></a>
+   </div>
                 <script>
                             var canvas = document.getElementById("U");
                             var ctx = canvas.getContext("2d");
@@ -181,7 +192,7 @@
     </script>
 
     <script>
-                function functionA(){
+                function functionW(){
                         var A=document.getElementById("s1");
                         s1.innerHTML='<span style="font-size:100px;">&#128522;</span>';
 
@@ -194,10 +205,50 @@
                         var A=document.getElementById("s4");
                         s4.innerHTML='<span style="font-size:100px;">&#128522;</span>';
 
-
+                        var snd = new Audio('Recording\A.m4a')//wav is also supported
+                        snd.play()//plays the sound
                 }
     </script>
     
+    <script>
+        function functionU(){
+
+                var B=document.getElementById("cross1");
+                cross1.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+        
+        }
+        function functionC(){
+
+        var B=document.getElementById("cross2");
+        cross2.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+        }
+        function functionS(){
+
+        var B=document.getElementById("cross3");
+        cross3.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+        }
+        function functionB(){
+                
+       var B=document.getElementById("cross4");
+       cross4.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+      }
+      function functionZ(){
+
+      var B=document.getElementById("cross5");
+      cross5.innerHTML='<div style="color:red;font-size:180px;height:100px;width:115px;font-family:Arial;">X</div>';
+
+}
+     </script>
+
+<!-- for refreshing page after every 3sec -->
+
+<script type="text/javascript">
+        window.setTimeout(function(){ document.location.reload(true); }, 3000);
+ </script>   
+                
                 
    
         </body>
