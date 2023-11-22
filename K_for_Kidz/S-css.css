@@ -1,360 +1,367 @@
+
+html{
+        min-height:100%;
+        width:100%;
+
+}
+body{
+
+background-image: url('Images/kidz_garden.png');
+background-repeat: no-repeat;
+background-size:100% 100%;
+background-position:center center;
+overflow: hidden;
+}
+.Q{
  
-                        html{
-                                        min-height:100%;
-                                        width:100%;
-            
-                        }
-                           body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:rotate(60deg) translate(200px) rotate(-60deg);
+    opacity:100%;                                  
+}
+.T{
+    
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform:rotate(120deg) translate(200px) rotate(-120deg);
 
-                                background-image: url('Images/kidz_garden.png');
-                                background-repeat: no-repeat;
-                                background-size:100% 100%;
-                                background-position:center center;
-                                overflow:hidden;
-                           }
-                             .Q{
-                               
-                                    position: absolute;
-                                    top: 50%;
-                                    left: 50%;
-                                    margin-right: -50%;
-                                    transform:rotate(60deg) translate(200px) rotate(-60deg);
-                                    opacity:100%;                                  
-                              }
-                            .T{
-                                    
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                margin-right: -50%;
-                                transform:rotate(120deg) translate(200px) rotate(-120deg);
-                               
-                              }
-                            .V{
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                margin-right: -50%;
-                                transform:rotate(180deg) translate(200px) rotate(-180deg);
-                               
-                              }
-                            .D{
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                margin-right: -50%;
-                                transform:rotate(240deg) translate(200px) rotate(-240deg);
-                             
-                              }
-                           .N{
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                margin-right: -50%;
-                                transform:rotate(300deg) translate(200px) rotate(-300deg);
-                               
-                              }
-                           .S{
-                               
-                                    position:absolute;                               
-                                    transform:rotate(390deg) translate(120px) rotate(-390deg);
+ }
+.V{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform:rotate(180deg) translate(200px) rotate(-180deg);
 
-                              }
-                              .container{
-                                height:600px;
-                                width:600px;
-                                position: absolute;
-                                top:0;
-                                left: 10%;            
-                                padding-top: 0;
-                                           
-                             }
-                .apple{
-                        margin-left:120%;
-                        margin-top:1%;
-                        position:absolute;
-                        border:4px solid rgb(7, 7, 7);
-                     
-                        }
-                     
+}
+.D{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform:rotate(240deg) translate(200px) rotate(-240deg);
 
-           table,tr,td{
-                             border:2px solid black;
-                
-                      }
-                tr,td{
-                        border:4px solid black;
-                }
-                      
-                table{
-                        height:200px;
-                        width:255px;
-                        margin-left:120%;
-                        margin-top:40%;
-                        position:absolute;
-                        border:4px solid black;
-                }
-               
-                #y{
-                                background-color: yellow;
-                                position:relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                                
-                  }
-                #gr{
-                                background-color: green;
-                                position:realtive;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                  }
-                #b{
-                                background-color: blue;
-                                position: relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                 }
-                #r{
-                                background-color: red;
-                                position: relative;
-                                height:10px;
-                                width:113px;
-                                align-items:center;
-                 }
-                #o{
-                                background-color:orange;
-                                position: relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                 }
-                #br{
-                                background-color:brown;
-                                position:relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                 }  
-                #y1{
-                                padding:0;
-                                width:auto;
-                                height:auto;
-                   }     
-                   .next{
-                        margin-top:35%;
-                        margin-left:89%;
-                        position:absolute;
-                        animation-name:next;
-                        animation-duration:1s;
-                        animation-iteration-count:infinite;
-                }  
+}
+.N{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform:rotate(300deg) translate(200px) rotate(-300deg);
 
-                .prev{
-                        margin-top:35%;
-                        margin-left:-1%;
-                        position:absolute;
-                        animation-name:prev;
-                        animation-duration:1s;
-                        animation-iteration-count:infinite;
-                }  
-                .home{
-                        margin-left:-1%;
-                        margin-top:0;
-                        position:absolute;
-                }
-  
+}
+.S{
+
+    position:absolute;                               
+    transform:rotate(390deg) translate(120px) rotate(-390deg);
+
+}
+
+.container{
+height:600px;
+width:600px;
+position: absolute;
+top:0;
+left: 10%;            
+padding-top: 0;
+           
+}
+.apple{
+margin-left:120%;
+margin-top:1%;
+position:absolute;
+border:4px solid rgb(7, 7, 7);
+
+}
+#apple_color{
+margin-left:120%;
+margin-top:1%;
+position:absolute;
+border:4px solid rgb(7, 7, 7);
+
+}
+
+
+table,tr,td{
+border:2px solid black;
+
+}
+tr,td{
+border:4px solid black;   
+cursor:pointer;
+} 
+table{
+height:200px;
+width:255px;
+margin-left:120%;
+margin-top:40%;
+position:absolute;
+border:4px solid black;
+}
+
+#y{
+background-color: yellow;
+position:relative;
+height:100px;
+width:113px;
+align-items:center;
+
+}
+#gr{
+background-color: green;
+position:realtive;
+height:100px;
+width:113px;
+align-items:center;
+}
+#b{
+background-color: blue;
+position: relative;
+height:100px;
+width:113px;
+align-items:center;
+}
+#r{
+background-color: red;
+position: relative;
+height:100px;
+width:113px;
+align-items:center;
+}
+#o{
+background-color:orange;
+position: relative;
+height:100px;
+width:113px;
+align-items:center;
+}
+#br{
+background-color:brown;
+position:relative;
+height:100px;
+width:113px;
+align-items:center;
+}  
+#y1{
+padding:0;
+width:auto;
+height:auto;
+}         
+.next{
+margin-top:73%;
+margin-left:162%;
+position:absolute;
+animation-name:next;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}  
+.prev{
+margin-top:73%;
+margin-left:-20%;
+position:absolute;
+animation-name:prev;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}  
+.home{
+margin-left:-20%;
+margin-top:0;
+position:absolute;
+}
+
+
 
 .container_emojies{
 
-                        bottom:0px;
-                        left:0px;
-                        position:fixed;
-                }
-                #s1{
-                        bottom:0;
-                        left:0;
-                        position:relative;
-                        animation-name:e1;
-                        animation-duration:3s;
-                        animation-fill-mode: forwards;
-                      
-                }
+bottom:0px;
+left:0px;
+position:fixed;
+}
+#s1{
+bottom:0;
+left:0;
+position:relative;
+animation-name:e1;
+animation-duration:3s;
+animation-fill-mode: forwards;
 
-                #s2{
-                        bottom:0;
-                        left:300px;
-                        position:fixed;
-                        animation-name:e2;
-                        animation-duration:3s;
-                        animation-fill-mode: forwards;
-                        animation-delay:1s;
-                      
-                }
-                #s3{
-                        bottom:0;
-                        left:600px;
-                        position:fixed;
-                        animation-name:e3;
-                        animation-duration:3s;
-                        animation-fill-mode: forwards;
-                        animation-delay:3s;                      
-                   }
-                #s4{
-                        bottom:0;
-                        left:900px;
-                        position:fixed;
-                        animation-name:e4;
-                        animation-duration:3s;
-                        animation-fill-mode: forwards;
-                        animation-delay:4s;
-                      
-                }
-                #cross1{
+}
 
-                        margin-left:50%;
-                        margin-top: 43%;
-                        position: absolute;
-                        animation-name:cr1;
-                        animation-duration:4s;
-                        opacity:0%;
-                        animation-play-state: running;
-                        animation-fill-mode: initial;
-                        animation-delay:0s;
-                                           
+#s2{
+bottom:0;
+left:300px;
+position:fixed;
+animation-name:e2;
+animation-duration:3s;
+animation-fill-mode: forwards;
+animation-delay:1s;
 
-                }
-                
-                #cross2{
-
-                        margin-left:50%;
-                        margin-top: 43%;
-                        position: absolute;
-                        animation-name:cr2;
-                        animation-duration:4s;
-                        opacity:0%;
-                        animation-play-state: running;
-                        animation-fill-mode: initial;
-                        animation-delay:0s;
-                                           
-
-                }
-                
-                #cross3{
-
-                        margin-left:50%;
-                        margin-top: 43%;
-                        position: absolute;
-                        animation-name:cr3;
-                        animation-duration:4s;
-                        opacity:0%;
-                        animation-play-state: running;
-                        animation-fill-mode: initial;
-                        animation-delay:0s;
-                                           
-
-                }
-                
-                #cross4{
-
-                        margin-left:50%;
-                        margin-top: 43%;
-                        position: absolute;
-                        animation-name:cr4;
-                        animation-duration:4s;
-                        opacity:0%;
-                        animation-play-state: running;
-                        animation-fill-mode: initial;
-                        animation-delay:0s;
-                                           
-
-                }
-                
-                
-                #cross5{
-
-                        margin-left:50%;
-                        margin-top: 43%;
-                        position: absolute;
-                        animation-name:cr5;
-                        animation-duration:4s;
-                        opacity:0%;
-                        animation-play-state: running;
-                        animation-fill-mode: initial;
-                        animation-delay:0s;
-                                        
-
-                }
+}
+#s3{
+bottom:0;
+left:600px;
+position:fixed;
+animation-name:e3;
+animation-duration:3s;
+animation-fill-mode: forwards;
+animation-delay:3s;                      
+}
+#s4{
+bottom:0;
+left:900px;
+position:fixed;
+animation-name:e4;
+animation-duration:3s;
+animation-fill-mode: forwards;
+animation-delay:4s;
 
 
+      
+}
 
-                /* Animation for emojies: */
+#cross1{
 
-                @keyframes e1{
-                                0%{bottom:0;opacity:10%;}
-                                50%{bottom:300px;opacity:60%;}                               
-                                100%{bottom:1000px;opacity:80%;}
-                }
-                @keyframes e2{
-                                0%{bottom:0;opacity:0%;}
-                                50%{bottom:300px;opacity:60%;}                               
-                                100%{bottom:1000px;opacity:80%;}
-                }
-                @keyframes e3{
-                                0%{bottom:0;opacity:0%;}
-                                50%{bottom:300px;opacity:60%;}                               
-                                100%{bottom:1000px;opacity:80%;}
-                }
-                @keyframes e4{
-                                0%{bottom:0;opacity:0%;}
-                                50%{bottom:300px;opacity:60%;}                               
-                                100%{bottom:1000px;opacity:80%;}
-                }
-                
+margin-left:50%;
+margin-top: 43%;
+position: absolute;
+animation-name:cr1;
+animation-duration:4s;
+opacity:0%;
+animation-play-state: running;
+animation-fill-mode: initial;
+animation-delay:0s;
+           
+
+}
+
+#cross2{
+
+margin-left:50%;
+margin-top: 43%;
+position: absolute;
+animation-name:cr2;
+animation-duration:4s;
+opacity:0%;
+animation-play-state: running;
+animation-fill-mode: initial;
+animation-delay:0s;
+           
+
+}
+
+#cross3{
+
+margin-left:50%;
+margin-top: 43%;
+position: absolute;
+animation-name:cr3;
+animation-duration:4s;
+opacity:0%;
+animation-play-state: running;
+animation-fill-mode: initial;
+animation-delay:0s;
+           
+
+}
+
+#cross4{
+
+margin-left:50%;
+margin-top: 43%;
+position: absolute;
+animation-name:cr4;
+animation-duration:4s;
+opacity:0%;
+animation-play-state: running;
+animation-fill-mode: initial;
+animation-delay:0s;
+           
+
+}
+
+
+#cross5{
+
+margin-left:50%;
+margin-top: 43%;
+position: absolute;
+animation-name:cr5;
+animation-duration:4s;
+opacity:0%;
+animation-play-state: running;
+animation-fill-mode: initial;
+animation-delay:0s;
         
-                            
-               /* animation for cross */
-                
-           @keyframes cr1{
-                50%{opacity:100%;}
-                100%{opacity:0%;}
-        }
-        @keyframes cr2{
-        50%{opacity:100%;}
-        100%{opacity:0%;}
-        }
-        @keyframes cr3{
-        50%{opacity:100%;}
-        100%{opacity:0%;}
-        }
-        @keyframes cr4{
-        50%{opacity:100%;}
-        100%{opacity:0%;}
-        }
-        @keyframes cr5{
-        50%{opacity:100%;}
-        100%{opacity:0%;}
-        }
-        
-        
-        
-        /*Animation for next button*/
-        
-        @keyframes next{
-                     50%{opacity:0;}
-        }
-        a:visited{
-        color:blue;
-        }
-        
-        /*Animation for next button*/
-        
-        @keyframes prev{
-                 50%{opacity:0;}
-        }
-        
-        a:visited{
-        color:blue;
-        }
+
+}
+
+/* Animation for emojies: */
+
+@keyframes e1{
+0%{bottom:0;opacity:10%;}
+50%{bottom:300px;opacity:60%;}                               
+100%{bottom:1000px;opacity:80%;}
+}
+@keyframes e2{
+0%{bottom:0;opacity:0%;}
+50%{bottom:300px;opacity:60%;}                               
+100%{bottom:1000px;opacity:80%;}
+}
+@keyframes e3{
+0%{bottom:0;opacity:0%;}
+50%{bottom:300px;opacity:60%;}                               
+100%{bottom:1000px;opacity:80%;}
+}
+@keyframes e4{
+0%{bottom:0;opacity:0%;}
+50%{bottom:300px;opacity:60%;}                               
+100%{bottom:1000px;opacity:80%;}
+}
+
+/* animation for cross */
+
+@keyframes cr1{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr2{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr3{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr4{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr5{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+
+
+
+/*Animation for next button*/
+
+@keyframes next{
+     50%{opacity:0;}
+}
+a:visited{
+color:blue;
+}
+
+/*Animation for next button*/
+
+@keyframes prev{
+ 50%{opacity:0;}
+}
+
+a:visited{
+color:blue;
+}
