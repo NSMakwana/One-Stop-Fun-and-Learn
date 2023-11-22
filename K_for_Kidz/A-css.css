@@ -335,6 +335,9 @@
                                 50%{bottom:300px;opacity:60%;}                               
                                 100%{bottom:1000px;opacity:80%;}
                 }
+
+                /* animation for cross */
+                
                 @keyframes cr1{
                                 50%{opacity:100%;}
                                 100%{opacity:0%;}
