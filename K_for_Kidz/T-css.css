@@ -142,7 +142,28 @@
                                 padding:0;
                                 width:auto;
                                 height:auto;
-                   }           
+                   }    
+                   .next{
+                        margin-top:73%;
+                        margin-left:162%;
+                        position:absolute;
+                        animation-name:next;
+                        animation-duration:1s;
+                        animation-iteration-count:infinite;
+                }  
+                .prev{
+                        margin-top:73%;
+                        margin-left:-20%;
+                        position:absolute;
+                        animation-name:prev;
+                        animation-duration:1s;
+                        animation-iteration-count:infinite;
+                }  
+                .home{
+                        margin-left:-20%;
+                        margin-top:0;
+                        position:absolute;
+                }               
 
 .container_emojies{
 
@@ -189,7 +210,83 @@
                         animation-delay:4s;
                       
                 }
+                #cross1{
 
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr1;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                #cross2{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr2;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                #cross3{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr3;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                #cross4{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr4;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                
+                #cross5{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr5;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                        
+
+                }
+
+               
                 /* Animation for emojies: */
 
                 @keyframes e1{
@@ -213,6 +310,51 @@
                                 100%{bottom:1000px;opacity:80%;}
                 }
                 
+        /* animation for cross */
+                
+@keyframes cr1{
+        50%{opacity:100%;}
+        100%{opacity:0%;}
+}
+@keyframes cr2{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr3{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr4{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+@keyframes cr5{
+50%{opacity:100%;}
+100%{opacity:0%;}
+}
+
+
+
+/*Animation for next button*/
+
+@keyframes next{
+             50%{opacity:0;}
+}
+a:visited{
+color:blue;
+}
+
+/*Animation for next button*/
+
+@keyframes prev{
+         50%{opacity:0;}
+}
+
+a:visited{
+color:blue;
+}                              
         
+                            
+
                             
                 
