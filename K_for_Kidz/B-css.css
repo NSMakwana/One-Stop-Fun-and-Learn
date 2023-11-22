@@ -70,80 +70,88 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .banana{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                #banana_color{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
-                     
-                        }
-                     
-
-           table,tr,td{
-                             border:2px solid black;
-                
-                      }
-                tr,td{
-                        border:4px solid black;   
-                        cursor:pointer;
-                     } 
-                         table{
-                        height:200px;
-                        width:255px;
-                        margin-left:120%;
-                        margin-top:40%;
-                        position:absolute;
-                        border:4px solid black;
+                       
                 }
-               
-                #y{
-                                background-color: yellow;
-                                position:relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                                
-                  }
-                #gr{
-                                background-color: green;
-                                position:realtive;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                  }
-                #b{
-                                background-color: blue;
-                                position: relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                 }
-                #r{
-                                background-color: red;
-                                position: relative;
-                                height:10px;
-                                width:113px;
-                                align-items:center;
-                 }
-                #o{
-                                background-color:orange;
-                                position: relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                 }
-                #br{
-                                background-color:brown;
-                                position:relative;
-                                height:100px;
-                                width:113px;
-                                align-items:center;
-                 }  
-                #y1{
-                                padding:0;
-                                width:auto;
-                                height:auto;
-                   }           
+                             
+        
+                   table,tr,td{
+                                     border:2px solid black;
+                        
+                              }
+                        tr,td{
+                                border:4px solid black;
+                        }
+                              
+                        table{
+                                height:200px;
+                                width:255px;
+                                margin-left:120%;
+                                margin-top:40%;
+                                position:absolute;
+                                border:4px solid black;
+                        }
+                       
+                        #y{
+                                        background-color: yellow;
+                                        position:relative;
+                                        height:100px;
+                                        width:113px;
+                                        align-items:center;
+                                        
+                          }
+                        #gr{
+                                        background-color: green;
+                                        position:realtive;
+                                        height:100px;
+                                        width:113px;
+                                        align-items:center;
+                          }
+                        #b{
+                                        background-color: blue;
+                                        position: relative;
+                                        height:100px;
+                                        width:113px;
+                                        align-items:center;
+                         }
+                        #r{
+                                        background-color: red;
+                                        position: relative;
+                                        height:10px;
+                                        width:113px;
+                                        align-items:center;
+                         }
+                        #o{
+                                        background-color:orange;
+                                        position: relative;
+                                        height:100px;
+                                        width:113px;
+                                        align-items:center;
+                         }
+                        #br{
+                                        background-color:brown;
+                                        position:relative;
+                                        height:100px;
+                                        width:113px;
+                                        align-items:center;
+                         }  
+                        #y1{
+                                        padding:0;
+                                        width:auto;
+                                        height:auto;
+                           }           
+                  
 
 .container_emojies{
 
@@ -190,6 +198,83 @@
                         animation-delay:4s;
                       
                 }
+                #cross1{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr1;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                #cross2{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr2;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                #cross3{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr3;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                #cross4{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr4;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+                
+                
+                #cross5{
+
+                        margin-left:50%;
+                        margin-top: 43%;
+                        position: absolute;
+                        animation-name:cr5;
+                        animation-duration:4s;
+                        opacity:0%;
+                        animation-play-state: running;
+                        animation-fill-mode: initial;
+                        animation-delay:0s;
+                                           
+
+                }
+
+
 
                 /* Animation for emojies: */
 
@@ -214,6 +299,28 @@
                                 100%{bottom:1000px;opacity:80%;}
                 }
                 
+         /*Animation for next button*/
+                @keyframes cr1{
+                        50%{opacity:100%;}
+                        100%{opacity:0%;}
+        }
+        @keyframes cr2{
+                50%{opacity:100%;}
+                100%{opacity:0%;}
+        }
+        @keyframes cr3{
+                50%{opacity:100%;}
+                100%{opacity:0%;}
+        }
+        @keyframes cr4{
+                50%{opacity:100%;}
+                100%{opacity:0%;}
+        }
+        @keyframes cr5{
+                50%{opacity:100%;}
+                100%{opacity:0%;}
+        }
+
         
                             
                 
