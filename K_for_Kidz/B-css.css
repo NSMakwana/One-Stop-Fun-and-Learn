@@ -152,7 +152,27 @@
                                         height:auto;
                            }           
                   
-
+                           .next{
+                                margin-top:73%;
+                                margin-left:162%;
+                                position:absolute;
+                                animation-name:next;
+                                animation-duration:1s;
+                                animation-iteration-count:infinite;
+                        }  
+                        .prev{
+                                margin-top:73%;
+                                margin-left:-20%;
+                                position:absolute;
+                                animation-name:prev;
+                                animation-duration:1s;
+                                animation-iteration-count:infinite;
+                        }  
+                        .home{
+                                margin-left:-20%;
+                                margin-top:0;
+                                position:absolute;
+                        }
 .container_emojies{
 
                         bottom:0px;
@@ -299,7 +319,7 @@
                                 100%{bottom:1000px;opacity:80%;}
                 }
                 
-         /*Animation for next button*/
+        
                 @keyframes cr1{
                         50%{opacity:100%;}
                         100%{opacity:0%;}
@@ -322,5 +342,23 @@
         }
 
         
+                /*Animation for next button*/
+
+                @keyframes next{
+                        50%{opacity:0;}
+   }
+a:visited{
+           color:blue;
+    }
+    
+   /*Animation for next button*/
+
+   @keyframes prev{
+                    50%{opacity:0;}
+   }
+
+a:visited{
+           color:blue;
+   }
                             
                 
