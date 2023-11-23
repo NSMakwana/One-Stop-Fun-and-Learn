@@ -33,7 +33,7 @@
                         </div>
 
                         <div class="B">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionB()">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionB();function_play()">
                         <canvas id="B" style="outline:6px solid black;border:2px solid green" height="100px" width="100px">
         
                         </canvas>
@@ -226,6 +226,17 @@
                         s4.innerHTML='<span style="font-size:100px;">&#128522;</span>';
 
         }
+</script>
+
+        <script>
+                function function_play(){
+                        var audio=document.getElementById("audio");
+                        audio.play();
+
+                }
+    </script>
+                <audio id="audio" src="Recording/B.mp3"></audio>
+    <script>       
         function functionC(){
 
         var B=document.getElementById("cross2");
@@ -260,12 +271,9 @@
       <!-- for refreshing page after every 3sec -->
         
       <script type="text/javascript">
-        window.setTimeout(function(){ document.location.reload(true); }, 3000);
- </script>
-    
-                
+        window.setTimeout(function(){ document.location.reload(true);},5000);
+ </script>           
    
         </body>
-
         
 </html>

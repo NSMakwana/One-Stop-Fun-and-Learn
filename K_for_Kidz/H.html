@@ -18,7 +18,7 @@
                          </div>
 
                         <div class="H">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height: 0%;" onclick="functionH()">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height: 0%;" onclick="functionH();function_play()">
                                 <canvas id="H" style="outline:6px solid black;border:2px solid yellow" height="100px" width="100px">
         
                                 </canvas>
@@ -219,6 +219,16 @@
 
                 }
     </script>
+
+<script>
+        function function_play(){
+                var audio=document.getElementById("audio");
+                audio.play();
+
+        }
+</script>
+        <audio id="audio" src="Recording/H.mpeg"></audio>
+
      <script>
         function functionC(){
 
@@ -255,7 +265,7 @@
 <!-- for refreshing page after every 3sec -->
 
 <script type="text/javascript">
-        window.setTimeout(function(){ document.location.reload(true); }, 3000);
+        window.setTimeout(function(){ document.location.reload(true); }, 5000);
  </script>
 
         </body>

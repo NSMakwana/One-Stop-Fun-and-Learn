@@ -10,7 +10,7 @@
                 <div class="container">
 
                         <div class="L">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionL()">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionL();function_play()">
                                 <canvas id="L"  style="outline:6px solid black;border:2px solid red;"height="100px" width="100px">
 
                                 </canvas>
@@ -215,11 +215,19 @@
                         var A=document.getElementById("s4");
                         s4.innerHTML='<span style="font-size:100px;">&#128522;</span>';
 
-                        var snd = new Audio('Recording\A.m4a')//wav is also supported
-                        snd.play()//plays the sound
-
+                        
                 }
     </script>
+
+<script>
+        function function_play(){
+                var audio=document.getElementById("audio");
+                audio.play();
+
+        }
+</script>
+        <audio id="audio" src="Recording/L.mpeg"></audio>
+    
 
 <script>
         function functionN(){
@@ -257,7 +265,7 @@
 <!-- for refreshing page after every 3sec -->
 
 <script type="text/javascript">
-        window.setTimeout(function(){ document.location.reload(true); }, 3000);
+        window.setTimeout(function(){ document.location.reload(true); }, 5000);
  </script>
                 
    

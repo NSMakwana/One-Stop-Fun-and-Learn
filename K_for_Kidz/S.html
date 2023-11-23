@@ -47,7 +47,7 @@
                         </button>     
                         
                         <div class="S">
-                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionS()">
+                        <button type="button" style="border:none;outline:none;padding:0;line-height:0%" onclick="functionS();function_play()">
                         <canvas id="S" style="outline:6px solid black;border:2px solid orange" height="100px" width="100px">
                         
                         </canvas>
@@ -200,6 +200,15 @@
                 }
     </script>
 
+<script>
+        function function_play(){
+                var audio=document.getElementById("audio");
+                audio.play();
+
+        }
+</script>
+        <audio id="audio" src="Recording/S.mpeg"></audio>
+
     <script>
                 function functionS(){
                  
@@ -258,7 +267,7 @@
         <!-- for refreshing page after every 3sec -->
         
         <script type="text/javascript">
-                window.setTimeout(function(){ document.location.reload(true); }, 3000);
+                window.setTimeout(function(){ document.location.reload(true); }, 5000);
          </script>
     
                 
