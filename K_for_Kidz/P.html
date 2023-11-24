@@ -57,22 +57,23 @@
                 </div>
                
         </div>
-                <div class="apple">
-                <image src="Apple-line drawing.png" height="220px" width="248px"></image>
+                <div class="parrot">
+                <image src="Images/Final Images/Parrot.png" height="220px" width="248px"></image>
         </div>
+        <div id="parrot_C"></div>
         <div class="color pallet">
                 <table>
                         <tr>
                                 
                                 <td id="y"> <button id="b1" type="button"  style="height: 100px; width :113px; background-color: yellow; outline-style: none;border:none; "onclick="function_yellow()"></button>
                                 </td>
-                                <td id="gr"> <button id="b2" type="button" style="height: 100px; width :113px; background-color:green; outline-style: none;border:none;"onclick="function_green()"></button>
+                                <td id="gr"> <button id="b2" type="button" style="height: 100px; width :113px; background-color:black; outline-style: none;border:none;"onclick="function_green()"></button>
                                 </td>
                         </tr>
                         <tr>
                                 <td id="b"><button id="b3" type="button" style="height: 100px; width :113px; background-color:blue; outline-style: none;border:none;" onclick="function_blue()"></button>
                                 </td>
-                                <td id="r"><button id="b4" type="button"  style="height: 100px; width :113px; background-color:red; outline-style: none;border:none;"onclick="function_red()"></button>
+                                <td id="r"><button id="b4" type="button"  style="height: 100px; width :113px; background-color:#42e90f; outline-style: none;border:none;"onclick="function_parrot()"></button>
                                 </td>
                         </tr>
                         <tr>
@@ -191,9 +192,9 @@
                         var b1= document.getElementById("b6");
                         b1.innerHTML='<div id="d1"style="color:red;font-size:180px;height:100px;width:115px;display:table-cell;text-align:center;line-height:75px;">x</div>';
                 }
-                function function_red(){
-                        var b1= document.getElementById("b4");
-                        b1.innerHTML='<canvas></canvas>';
+                function function_parrot(){
+                        var b1= document.getElementById("parrot_C");
+                        parrot_C.innerHTML='<image src="Images/Final Images/Parrot C.png" height="220px" width="248px"></image>';
                 }
     </script>
 

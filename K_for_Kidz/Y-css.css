@@ -70,14 +70,21 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .yak{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
                      
                         }
-                     
+                #yak_C{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                                      
 
            table,tr,td{
                              border:2px solid black;
@@ -97,7 +104,7 @@
                 }
                
                 #y{
-                                background-color: yellow;
+                                background-color:pink;
                                 position:relative;
                                 height:100px;
                                 width:113px;
@@ -119,21 +126,21 @@
                                 align-items:center;
                  }
                 #r{
-                                background-color: red;
+                                background-color:#63340a;
                                 position: relative;
                                 height:10px;
                                 width:113px;
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:lightblue;
                                 position: relative;
                                 height:100px;
                                 width:113px;
                                 align-items:center;
                  }
                 #br{
-                                background-color:brown;
+                                background-color:purple;
                                 position:relative;
                                 height:100px;
                                 width:113px;

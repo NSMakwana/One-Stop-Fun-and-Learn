@@ -69,14 +69,21 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .lion{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
                      
                         }
-                     
+                #lion_C{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                                           
 
            table,tr,td{
                              border:2px solid black;
@@ -96,7 +103,7 @@
                 }
                
                 #y{
-                                background-color: yellow;
+                                background-color: purple;
                                 position:relative;
                                 height:100px;
                                 width:113px;
@@ -125,14 +132,14 @@
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:pink;
                                 position: relative;
                                 height:100px;
                                 width:113px;
                                 align-items:center;
                  }
                 #br{
-                                background-color:brown;
+                                background-color:#fa9d51;
                                 position:relative;
                                 height:100px;
                                 width:113px;

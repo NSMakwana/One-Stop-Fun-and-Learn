@@ -68,14 +68,21 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .monkey{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
                      
                         }
-                     
+                        #monkey_C{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                             
 
            table,tr,td{
                              border:2px solid black;
@@ -103,7 +110,7 @@
                                 
                   }
                 #gr{
-                                background-color: green;
+                                background-color: #bfbebe;
                                 position:realtive;
                                 height:100px;
                                 width:113px;
@@ -124,7 +131,7 @@
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:black;
                                 position: relative;
                                 height:100px;
                                 width:113px;

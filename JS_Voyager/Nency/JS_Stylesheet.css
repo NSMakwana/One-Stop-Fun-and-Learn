@@ -23,7 +23,7 @@ body{
 
 textarea{
             width:100%;
-            height:50%;
+            height:30%;
             background: #1f1f1f;
             color:#fff;
             padding: 10px 20px;
@@ -33,7 +33,7 @@ textarea{
 }
 
 iframe{
-            height:95%;
+            height:100%;
             width:100%;
             background:#fff;
             border:0;
@@ -45,4 +45,24 @@ label{
             align-items: center;
             background: #000;
             height: 30px;
+           
+}
+#H{
+    height:50px;
+    width: 50px;
+   
+
+}
+#C{
+    height:40px;
+    width: 40px;
+    margin:1%;
+
+}
+#J{
+    height:40px;
+    width: 70px;
+    padding:0;
+    margin:-2%;  
+
 }

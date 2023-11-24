@@ -57,14 +57,15 @@
                 </div>
                
         </div>
-                <div class="apple">
-                <image src="Images/Apple-line drawing.png" height="220px" width="248px"></image>
+                <div class="rose">
+                <image src="Images/Final Images/Rose.png" height="220px" width="248px"></image>
         </div>
+        <div id="rose_C"></div>
         <div class="color pallet">
                 <table>
                         <tr>
                                 
-                                <td id="y"> <button id="b1" type="button"  style="height: 100px; width :113px; background-color: yellow; outline-style: none;border:none; "onclick="function_yellow()"></button>
+                                <td id="y"> <button id="b1" type="button"  style="height: 100px; width :113px; background-color: lightblue; outline-style: none;border:none; "onclick="function_yellow()"></button>
                                 </td>
                                 <td id="gr"> <button id="b2" type="button" style="height: 100px; width :113px; background-color:green; outline-style: none;border:none;"onclick="function_green()"></button>
                                 </td>
@@ -72,7 +73,7 @@
                         <tr>
                                 <td id="b"><button id="b3" type="button" style="height: 100px; width :113px; background-color:blue; outline-style: none;border:none;" onclick="function_blue()"></button>
                                 </td>
-                                <td id="r"><button id="b4" type="button"  style="height: 100px; width :113px; background-color:red; outline-style: none;border:none;"onclick="function_red()"></button>
+                                <td id="r"><button id="b4" type="button"  style="height: 100px; width :113px; background-color:#d80695; outline-style: none;border:none;"onclick="function_rose()"></button>
                                 </td>
                         </tr>
                         <tr>
@@ -195,9 +196,9 @@
                         var b1= document.getElementById("b6");
                         b1.innerHTML='<div id="d1"style="color:red;font-size:180px;height:100px;width:115px;display:table-cell;text-align:center;line-height:75px;">x</div>';
                 }
-                function function_red(){
-                        var b1= document.getElementById("b4");
-                        b1.innerHTML='<canvas></canvas>';
+                function function_rose(){
+                        var b1= document.getElementById("rose_C");
+                        rose_C.innerHTML='<image src="Images/Final Images/Rose C.png" height="220px" width="248px"></image>';
                 }
     </script>
 

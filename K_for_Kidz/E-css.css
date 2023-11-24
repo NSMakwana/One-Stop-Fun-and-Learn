@@ -68,13 +68,19 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .elephant{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
                      
                         }
+                #elephant_C{
+                        margin-left:120%;
+                        margin-top:1%;
+                        position:absolute;
+                        border:4px solid rgb(7, 7, 7);
+                }
                      
 
            table,tr,td{
@@ -95,7 +101,7 @@
                 }
                
                 #y{
-                                background-color: yellow;
+                                background-color: #959594;
                                 position:relative;
                                 height:100px;
                                 width:113px;
@@ -110,7 +116,7 @@
                                 align-items:center;
                   }
                 #b{
-                                background-color: blue;
+                                background-color:black;
                                 position: relative;
                                 height:100px;
                                 width:113px;
@@ -124,7 +130,7 @@
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:pink;
                                 position: relative;
                                 height:100px;
                                 width:113px;

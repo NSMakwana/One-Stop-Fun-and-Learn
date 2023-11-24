@@ -1,0 +1,54 @@
+html{
+    min-height:100%;
+    width:100%;
+
+}
+    body{
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center center;
+        overflow:hidden;
+        background-color:#2C3539;
+        
+        
+    }
+    .monitor{
+               
+               
+               
+                margin-top: 10%;
+                margin-left: 60%;
+    }
+    .Book{
+
+             
+              margin-top: 10%;
+              margin-left: 10%;
+         }
+    
+    #M{
+        margin-top: 0%;
+        margin-left: 0%;
+        position:absolute;
+        animation-name:blink_screen;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    #B{
+        margin-top: 0%;
+        margin-left: 0%;
+        position: absolute;
+        animation-name:blink_book;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    
+  /* animation to titleline */
+  @keyframes blink_book
+  {
+      50%{opacity:0%;}
+  }
+  @keyframes blink_screen
+  {
+      50%{opacity:0%;}
+  }

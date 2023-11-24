@@ -69,14 +69,21 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .hair{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
                      
                         }
-                     
+           #hair_C{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                             
 
            table,tr,td{
                              border:2px solid black;
@@ -96,7 +103,7 @@
                 }
                
                 #y{
-                                background-color: yellow;
+                                background-color: #000000;
                                 position:relative;
                                 height:100px;
                                 width:113px;
@@ -111,7 +118,7 @@
                                 align-items:center;
                   }
                 #b{
-                                background-color: blue;
+                                background-color: pink;
                                 position: relative;
                                 height:100px;
                                 width:113px;
@@ -125,7 +132,7 @@
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:grey;
                                 position: relative;
                                 height:100px;
                                 width:113px;

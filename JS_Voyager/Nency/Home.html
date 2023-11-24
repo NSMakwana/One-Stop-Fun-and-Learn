@@ -8,37 +8,25 @@
         </head>
         <body>
             <div class ="container">
-                    
+                
                     <div class="left">
 
-                        <label>HTML</label>
+                        <label><img id="H" src="Images/HTML5_logo.png">HTML</label>
                         <textarea id="html-code" onkeyup="run()"></textarea>
-                        <label>Java Script</label>
+
+                        <label><img id="C" src="Images/CSS3_logo.png">CSS</label>
+                        <textarea id="css-code" onkeyup="run()"></textarea>
+
+                        <label><img id="J" src="Images/JavaScript-Logo-1024x640.png">Java Script</label>
                         <textarea id="jscode" onkeyup="run()"></textarea>
                     </div>
                     <div class="right">
-                        <label>Output</label>
+                        <label><button id="save" onclick="save()">SAVE</button>Output</label>
                         <iframe id="output"></iframe>
                     </div>
 
                 </div>
 
-                <script>
-                    function run(){
-                                        let code=document.getElementById("html-code").value;
-                                        let jcode=document.getElementById("jscode").value;
-                                        let output=document.getElementById("output");
-                                        
-
-
-                                       
-                                        
-                                       
-                                        output.contentDocument.body.innerHTML=code;
-                                       output.contentWindow.eval(code);
-                                       //output.contentDocument.body.innerHTML=code;
-                                       
-                                   }
-        </script>
+        <script src="JS-script.js"></script>
         </body>
 </html>

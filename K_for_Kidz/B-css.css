@@ -104,7 +104,7 @@
                         }
                        
                         #y{
-                                        background-color: yellow;
+                                        background-color:#dad538;
                                         position:relative;
                                         height:100px;
                                         width:113px;
@@ -112,7 +112,7 @@
                                         
                           }
                         #gr{
-                                        background-color: green;
+                                        background-color:green;
                                         position:realtive;
                                         height:100px;
                                         width:113px;
@@ -133,7 +133,7 @@
                                         align-items:center;
                          }
                         #o{
-                                        background-color:orange;
+                                        background-color:black;
                                         position: relative;
                                         height:100px;
                                         width:113px;

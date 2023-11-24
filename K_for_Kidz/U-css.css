@@ -69,13 +69,20 @@
                                 padding-top: 0;
                                            
                              }
-                .apple{
+                .umbrella{
                         margin-left:120%;
                         margin-top:1%;
                         position:absolute;
                         border:4px solid rgb(7, 7, 7);
                      
                         }
+                        #umbrella_C{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
                      
 
            table,tr,td{
@@ -96,7 +103,7 @@
                 }
                
                 #y{
-                                background-color: yellow;
+                                background-color: #fb2c0a;
                                 position:relative;
                                 height:100px;
                                 width:113px;
@@ -104,35 +111,35 @@
                                 
                   }
                 #gr{
-                                background-color: green;
+                                background-color:#f8fb0a;
                                 position:realtive;
                                 height:100px;
                                 width:113px;
                                 align-items:center;
                   }
                 #b{
-                                background-color: blue;
+                                background-color:#27c71b;
                                 position: relative;
                                 height:100px;
                                 width:113px;
                                 align-items:center;
                  }
                 #r{
-                                background-color: red;
+                                background-color:#0a3feb;
                                 position: relative;
                                 height:10px;
                                 width:113px;
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:#f76b17;
                                 position: relative;
                                 height:100px;
                                 width:113px;
                                 align-items:center;
                  }
                 #br{
-                                background-color:brown;
+                                background-color:#eb0ae3  ;
                                 position:relative;
                                 height:100px;
                                 width:113px;

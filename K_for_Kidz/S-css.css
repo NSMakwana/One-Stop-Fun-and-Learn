@@ -70,14 +70,14 @@ left: 10%;
 padding-top: 0;
            
 }
-.apple{
+.sun{
 margin-left:120%;
 margin-top:1%;
 position:absolute;
 border:4px solid rgb(7, 7, 7);
 
 }
-#apple_color{
+#sun_C{
 margin-left:120%;
 margin-top:1%;
 position:absolute;
@@ -104,7 +104,7 @@ border:4px solid black;
 }
 
 #y{
-background-color: yellow;
+background-color: white;
 position:relative;
 height:100px;
 width:113px;
@@ -126,14 +126,14 @@ width:113px;
 align-items:center;
 }
 #r{
-background-color: red;
+background-color: black;
 position: relative;
 height:100px;
 width:113px;
 align-items:center;
 }
 #o{
-background-color:orange;
+background-color:#fd7d00;
 position: relative;
 height:100px;
 width:113px;
