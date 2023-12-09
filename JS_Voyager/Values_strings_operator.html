@@ -13,8 +13,60 @@
    <div class="Container">
        <h1 id="t_h1">Values,strings,operator</h1>
        <pre id="text">
+        <strong><italics>VALUES:</italics></strong> <ul>
+<li>Imagine a sea of bits—an ocean of them. A typical modern computer has more than 30 billion bits in its 
+volatile data storage (working memory). Nonvolatile storage (the hard disk or equivalent) tends to have
+yet a few orders of magnitude more.</li>    
+<li>To be able to work with such quantities of bits without getting lost, we must separate them into chunks 
+that represent pieces of information.</li>
+<li>In a JavaScript environment, those chunks are called values.</li>
+<li>Every value has to be stored somewhere, and if you want to use a gigantic amount of them at the same 
+time, you might run out of memory.</li>
+<li>As soon as you no longer use a value, it will dissipate, leaving behind its bits to be recycled as 
+building material for the next generation of values.</li>
+         </ul>
 
-      
+        <strong>STRINGS:</strong>
+         <ul>
+<li>The next basic data type is the string. Strings are used to represent text. They are written by enclosing 
+their content in quotes.
+                                 `Above the Sky`</li>  
+<li>You can use single quotes, double quotes, or backticks to mark strings,as long as the quotes at the 
+start and the end of the string match.You can imagine how putting quotes between quotes might be hard.
+Newlines (the characters you get when you press enter) can be included without escaping only when the 
+string is quoted with backticks (\‘).</li>
+<li>To make it possible to include such characters in a string, the following notation is used: whenever
+a backslash (\) is found inside quoted text, it indicates that the character after it has a special meaning. This
+is called escaping the character.</li>  
+<li>Strings, too, have to be modeled as a series of bits to be able to exist inside the computer. The way 
+JavaScript does this is based on the Unicode standard.Strings cannot be divided, multiplied, or subtracted, but 
+the + operator can be used on them. It does not add, but it concatenates—it glues two strings together. The 
+following line will produce the string
+                                    "concatenate":
+                            "con" + "cat" + "e" + "nate</li>        
+         </ul>
+         <strong>OPERATORS:</strong>
+         <ul>
+<li>Operators are the ones through which by using them we can exhibit several specific operations.</li>
+<li>Types of JavaScript Operators:
+There are different types of JavaScript operators:</li>
+<ol>
+<li>Arithmetic Operators</li>
+<li>Assignment Operators</li>
+<li>Comparison Operators</li>
+<li>String Operators</li>
+<li>Logical Operators</li>
+<li>Bitwise Operators</li>
+<li>Ternary Operators</li>
+<li>Type Operators</li>
+</ol>
+<li>There are also some operations that can be applied to Boolean values themselves. JavaScript supports 
+three logical operators: and, or, and not. These can be used to “reason” about Booleans. The && operator represents
+logical and. It is a binary operator, and its result is true only if both the values given to it are true</li>
+</ul>
+
+
+
        </pre>
       
    </div>

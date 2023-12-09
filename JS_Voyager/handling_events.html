@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Values,strings,operator</title>
+   <title>Handling Events</title>
    <link rel="stylesheet" href="All_pages-css.css">
    
 </head>
@@ -11,8 +11,24 @@
    <script src="All_pages-script.js"></script>
    <!-- for text -->
    <div class="Container">
-       <h1 id="t_h1">Values,strings,operator</h1>
+       <h1 id="t_h1">Handling Events</h1>
        <pre id="text">
+      <strong>HANDLING EVENTS:</strong><ul>
+<li>Some programs work with direct user input, such as mouse and keyboard actions. That kind of 
+input isn’t available as a well-organized data structure—it comes in piece by piece, in real time,
+and the program is expected to respond to it as it happens.</li> 
+<li>Imagine an interface where the only way to find out whether a key on the keyboard is being pressed
+is to read the current state of that key. To be able to react to keypresses, you would have to constantly read
+the key’s state so that you’d catch it before it’s released again. It would be dangerous to perform 
+other time-intensive computations since you might miss a keypress.</li>   
+<li>It has to remember to look at the queue, and to do it often, because any time between the key
+being pressed and the program noticing the event will cause the software to feel unresponsive. This
+approach is called polling.</li>    
+<li>Each browser event handler is registered in a context. In the described example we called 
+addEventListener on the window object to register a handler for the whole window. Such a method can also
+be found on DOM elements and some other types of objects.</li>
+       </ul>
+
 
       
        </pre>
