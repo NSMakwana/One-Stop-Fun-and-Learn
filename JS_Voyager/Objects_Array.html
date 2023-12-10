@@ -19,8 +19,8 @@
     This code assigns many values (Apple, 20, Red) to a variable named Fruits.</li>
 <li>The values are written as name:value pairs (name and value separated by a colon).</li>    
 <li>Furtherly, Objects can also have methods. Methods are actions that can be performed 
-on objects.Methods are stored in properties as function definitions</li>
-<li>Inside the braces, there is a list of properties separated by commas. Each property has
+on objects.Methods are stored in properties as function definitions.</li>
+<li>Inside the braces(refer Example-1), there is a list of properties separated by commas. Each property has
 a name followed by a colon and a value. When an object is written over multiple lines, indenting
 it like in the example helps with readability. Properties whose names aren’t valid bindin names or
 valid numbers have to be quoted.</li>
@@ -30,7 +30,7 @@ the property’s value if it already existed or create a new property on the obj
         <strong>ARRAYS:</strong><ul>
 <li>Arrays, then, are just a kind of object specialized for storing sequences of things. If you 
 evaluate typeof [], it produces "object". You can see them as long, flat octopuses with all their 
-tentacles in a neat row, labeled with numbers.</li>
+tentacles in a neat row, labeled with numbers.(Refer Example-2)</li>
 <li>If you have a list of items (a list of Fruit names, for example), storing the cars in single variables.
 However, what if you want to loop through the cars and find a specific one? The solution is an array! An
 array can hold many values under a single name, and you can access the values by referring to an index
@@ -45,9 +45,26 @@ number. Using an array literal is the easiest way to create a JavaScript Array.<
    <div id="ex">
     <h1>Examples</h1>
        <pre id="text">
-
-        
-       </pre>
+<p><ul>Example-1</ul>
+    let day1 = {
+        squirrel: false,
+        events: ["work", "touched tree", "pizza", "running"]
+        };
+        console.log(day1.squirrel);
+        // → false
+        console.log(day1.wolf);
+        // → undefined
+        day1.wolf = false;
+        94
+        console.log(day1.wolf);
+        // → false 
+</p>
+<ul>Example-2</ul><p>
+const cars = new Array("Saab", "Volvo", "BMW");
+//array usage
+document.getElementById("demo").innerHTML = cars;
+</p>
+</pre>
       
 
    </div>
