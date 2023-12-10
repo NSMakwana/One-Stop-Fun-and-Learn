@@ -27,10 +27,42 @@ approach is called polling.</li>
 <li>Each browser event handler is registered in a context. In the described example we called 
 addEventListener on the window object to register a handler for the whole window. Such a method can also
 be found on DOM elements and some other types of objects.</li>
+<li>Reacting to Events: A JavaScript can be executed when an event occurs, like when a user clicks on an 
+HTML element. To execute code when a user clicks on an element, add JavaScript code to an HTML event attribute:
+                                onclick=JavaScript</li>
+<li>HTML Event Attributes: To assign events to HTML elements you can use event attributes.</li>
+<li>Assign Events Using the HTML DOM:
+    The HTML DOM allows you to assign events to HTML elements using JavaScript
+    Assign an onclick event to a button element:  
+    script
+    document.getElementById("myBtn").onclick = displayDate;
+    script/
+    In the example above, a function named displayDate is assigned to an HTML element with the id="myBtn".</li>
+<li>The onload and onunload Events:
+They are triggered when the user enters or leaves the page.
+The onload event can be used to check the visitor's browser type and browser version, and load the
+proper version of the web page based on the information.The onload and onunload events can be used to deal with 
+cookies.
+      body onload="checkCookies()"</li>
+<li>The oninput Event:
+The oninput event is often to to some action while the user input data.
+elow is an example of how to use the oninput to change the content of an input field.
+    Example
+    input type="text" id="fname" oninput="upperCase()"</li>      
+<li>The onchange Event:
+The onchange event is often used in combination with validation of input fields    
+Below is an example of how to use the onchange. The upperCase() function will be called when a 
+user changes the content of an input field.
+    Example
+    input type="text" id="fname" onchange="upperCase()"</li>
+<li>The onmouseover and onmouseout Events:
+The onmouseover and onmouseout events can be used to trigger a function when the user mouses over,
+or out of, an HTML element</li>    
+<li>The onmousedown, onmouseup and onclick Events:
+The onmousedown, onmouseup, and onclick events are all parts of a mouse-click. First when a mouse-button
+is clicked, the onmousedown event is triggered, then, when the mouse-button is released, the onmouseup event
+is triggered, finally, when the mouse-click is completed, the onclick event is triggered.</li>
        </ul>
-
-
-      
        </pre>
       
    </div>
