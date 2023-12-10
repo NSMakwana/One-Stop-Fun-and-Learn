@@ -6,7 +6,7 @@
 }
 
 body{
-        background: #454545;
+        background: #022331;
         color:#fff;
     }
 
@@ -30,6 +30,10 @@ textarea{
             border:0;
             outline:0;
             font-size:18px;
+            font-size: 15pt;
+            font-family: monospace;
+            border: 2px solid white;
+          
 }
 
 iframe{
@@ -38,6 +42,7 @@ iframe{
             background:#fff;
             border:0;
             outline:0;
+
             
 }
 label{
@@ -45,6 +50,8 @@ label{
             align-items: center;
             background: #000;
             height: 30px;
+            border: 2px solid white;
+            margin-top:1%;
            
 }
 #H{
@@ -66,3 +73,19 @@ label{
     margin:-2%;  
 
 }
+#print{
+        height:27px;
+        width:30px;
+}
+#save{
+
+  background-color:transparent;
+  border:none;
+  margin:1%;
+}
+
+
+  
+
+  
+  

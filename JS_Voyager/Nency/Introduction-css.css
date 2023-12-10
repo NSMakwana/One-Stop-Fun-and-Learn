@@ -1,0 +1,75 @@
+html{
+    min-height:100%;
+    width:100%;
+
+}
+body{
+        overflow:hidden;
+        background-color:#022331;
+               
+    }
+    .Container{
+
+        margin-top:5%;
+        margin-left:5%;
+        margin-right:5%;
+        border:4px solid  rgb(230, 206, 110);
+        border-radius:8px;;
+        height:450px;
+        width: 1100px;
+        overflow-y:scroll;
+        position:absolute;
+        -ms-overflow-style: none;
+        background-color: #022331;
+        background-image:url("Images/book\ page.png");
+        background-repeat: no-repeat;
+        background-size:95% 100%;
+        background-position-x: center;
+        background-position-y: center;
+        
+
+    }
+    .Container::-webkit-scrollbar { 
+        display: none;  
+    }
+     /* for backbutton: */
+     #back{
+        background-color: transparent;
+        border:none;
+     }
+     #backbutton{
+
+        margin: 0%;
+    }
+    #text{
+
+        margin:5%;
+        margin-top:0%;
+        border: 2px solid black;
+        font-size: larger;
+        line-height: 1.9;
+        height: fit-content;
+        width:970px;     
+        white-space:pre;
+        text-indent:50px;
+        text-wrap:stable;
+        overflow:auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        margin-top: 0%;
+        padding-bottom: 0%;
+        margin-left:40% ;
+
+    }
+    #p{
+        background-color: transparent;
+        border:2px solid rgb(230, 206, 110);
+        color:aliceblue;
+    }
+    #print{
+
+        margin-top: 40%;
+        margin-left:5%;
+    }
+   

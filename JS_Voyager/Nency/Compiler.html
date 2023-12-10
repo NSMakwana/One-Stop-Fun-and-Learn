@@ -12,21 +12,21 @@
                     <div class="left">
 
                         <label><img id="H" src="Images/HTML5_logo.png">HTML</label>
-                        <textarea id="html-code" onkeyup="run()"></textarea>
+                        <textarea id="html-code" onkeyup="run()" contenteditable="true" spellcheck="false"></textarea>
 
                         <label><img id="C" src="Images/CSS3_logo.png">CSS</label>
-                        <textarea id="css-code" onkeyup="run()"></textarea>
+                        <textarea id="css-code" onkeyup="run()"contenteditable='true' spellcheck="false"></textarea>
 
                         <label><img id="J" src="Images/JavaScript-Logo-1024x640.png">Java Script</label>
-                        <textarea id="jscode" onkeyup="run()"></textarea>
+                        <textarea id="jscode" onkeyup="run()" contenteditable='true' spellcheck="false" ></textarea>
                     </div>
                     <div class="right">
-                        <label><button id="save" onclick="save()">SAVE</button>Output</label>
+                        <label><button id="save" onclick="function_print()"><img id="print" src="Images/Print.png"></button><button id="refresh" onclick="refresh()"><strong>refresh</strong></button><strong><font style="margin:300%; font-size:20px;">Output</font></strong></label>
                         <iframe id="output"></iframe>
                     </div>
 
                 </div>
-
+                
         <script src="JS-script.js"></script>
         </body>
 </html>

@@ -5,27 +5,34 @@ html{
 }
     body{
 
-        /* background-image: url('Images/Background.png'); */
+        background-image: url('Images/JavaScript\ Background.png');
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center center;
         overflow:hidden;
-        background-color:royalblue;
- 
+       
     
     }
 
     .title{
         position:absolute;
-        margin-top:15%;
-        margin-left:60%;
+        margin-top:5%;
+        margin-left:35%;
         width:100%;
         height:100%;
+             
+          
+    }
+    .milestone{
+
+        position:absolute;
+        margin-top:36%;
+        margin-left:57%;
         animation-name:start;
-        animation-duration:5s;
+        animation-duration:1s;
         animation-iteration-count:infinite;
         
-          
+
     }
 
     /* animation to titleline */
@@ -34,4 +41,9 @@ html{
         50%{opacity:50%;}
     }
     
-  
+  /* #b{
+
+    height:200px;
+    width:500px;
+
+  } */

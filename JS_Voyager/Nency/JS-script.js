@@ -1,29 +1,103 @@
+    
 function run(){
+              
     let code=document.getElementById("html-code").value; 
     let ccode=document.getElementById("css-code").value;
     let jcode=document.getElementById("jscode").value;
-    let output=document.getElementById("output");                 
-    
+    let output=document.getElementById("output");  
    
     output.contentDocument.body.innerHTML=code+"<style>"+ccode+"</style>";
-    output.contentWindow.eval(jcode);
+   output.contentWindow.eval(jcode);
   
 }
-// const code=document.querySelector('#code textarea');
-// const jcode=document.querySelector('#jcode textarea');
-// const output=document.querySelector('#output');
+function function_print()
+{
+    let print_html =document.getElementById("html-code").value;
+   
+    let print_css=document.getElementById("css-code").value;
+    let print_js=document.getElementById("jscode").value;
 
-// function run(){
+   let print_area=window.open();
+   print_area.document.body.innerHTML="<plaintext>"+print_html+print_css+print_js;
+   print_area.document.close();
+   print_area.focus();
+   print_area.print();
+   print_area.close();
 
-//     localStorage.setItem('html-code',html-code).value;
-//     localStorge.setItem('jscode',jscode.value);
-//     output.contentDocument.body.innerHTML=localStorage.html-code;
-//     output.contentWindow.eval(localStorage.jscode);
-// }
 
-// code.onkeyup= () =>run();
-// code.onkeyup= () =>run();
+}
 
-// code.value = localStorage.html-code;
-// jcode.value-localStorage.jscode;
 
+var h_tab = document.getElementById('html-code');  
+ h_tab.onkeydown = function(e) {
+
+ if (e.keyCode === 9) { 
+
+     this.setRangeText(
+
+             '\t',
+
+             this.selectionStart,
+             this.selectionStart,
+
+             
+             'end'
+
+         )
+
+     return false; 
+
+ }
+
+};
+
+var j_tab = document.getElementById('jscode');  
+ j_tab.onkeydown = function(e) {
+
+ if (e.keyCode === 9) { 
+
+     this.setRangeText(
+
+             '\t',
+
+             this.selectionStart,
+             this.selectionStart,
+
+             
+             'end'
+
+         )
+
+     return false; 
+
+ }
+
+};
+
+var c_tab = document.getElementById('css-code');  
+ c_tab.onkeydown = function(e) {
+
+ if (e.keyCode === 9) { 
+
+     this.setRangeText(
+
+             '\t',
+
+             this.selectionStart,
+             this.selectionStart,
+
+             
+             'end'
+
+         )
+
+     return false; 
+
+ }
+
+};
+
+function refresh()
+{
+    location.reload();
+}
