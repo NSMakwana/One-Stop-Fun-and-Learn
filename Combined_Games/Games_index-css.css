@@ -5,6 +5,8 @@ body{
   margin-top: 0%;
   margin-left: 0%;
   position: absolute;
+  border:2px solid white;
+    border-radius: 8px;
 }
 .container{
     margin-top:3.5%;
