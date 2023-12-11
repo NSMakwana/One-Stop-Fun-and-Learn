@@ -75,8 +75,15 @@
                         border:4px solid rgb(7, 7, 7);
                      
                         }
-                     
-
+                
+                        #jug{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                        
            table,tr,td{
                              border:2px solid black;
                 
@@ -117,7 +124,7 @@
                                 align-items:center;
                  }
                 #r{
-                                background-color: red;
+                                background-color: #C0C0C0;
                                 position: relative;
                                 height:10px;
                                 width:113px;

@@ -75,7 +75,14 @@
                         border:4px solid rgb(7, 7, 7);
                      
                         }
-                     
+                       #fish{
+                                margin-left:120%;
+                                margin-top:1%;
+                                position:absolute;
+                                border:4px solid rgb(7, 7, 7);
+                             
+                                }
+                             
 
            table,tr,td{
                              border:2px solid black;
@@ -95,7 +102,7 @@
                 }
                
                 #y{
-                                background-color: yellow;
+                                background-color: #e9f251;
                                 position:relative;
                                 height:100px;
                                 width:113px;
@@ -110,21 +117,21 @@
                                 align-items:center;
                   }
                 #b{
-                                background-color: blue;
+                                background-color:#14b9f6;
                                 position: relative;
                                 height:100px;
                                 width:113px;
                                 align-items:center;
                  }
                 #r{
-                                background-color: red;
+                                background-color: black;
                                 position: relative;
                                 height:10px;
                                 width:113px;
                                 align-items:center;
                  }
                 #o{
-                                background-color:orange;
+                                background-color:#fa892d;
                                 position: relative;
                                 height:100px;
                                 width:113px;

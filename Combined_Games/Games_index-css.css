@@ -1,5 +1,8 @@
 body{
             background-color: black;
+            background-image:url("Images/Background\ for\ game\ index.png");
+            background-repeat: no-repeat;
+            background-size: cover;
 }
 #home{
   margin-top: 0%;
@@ -12,7 +15,7 @@ body{
     margin-top:3.5%;
     margin-left:5%;
     margin-right:5%;
-    
+    background-color: black;
     border:4px solid white;
     border-radius:8px;;
     height:500px;
