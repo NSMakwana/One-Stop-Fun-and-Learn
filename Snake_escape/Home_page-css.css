@@ -15,11 +15,30 @@ html{
     }
 #start{
 
-    margin-top: 21%;
-    margin-left:80%;
+    margin-top: 17.5%;
+    margin-left:75%;
+    position: absolute;
 }
 #s{
 
-    height:30px;
+    height:80px;
+    width:250px;
+    background-color: transparent;
+    border:3px solid black;
+    border-radius: 8px;
+}
+#home{
+
+    margin-top: 27.5%;
+    margin-left:79%;
+    position: absolute;
+}
+#h{
+
+    height:110px;
     width:150px;
+    background-color: transparent;
+    border:3px solid black;
+    border-radius: 8px;
+    border:none;
 }
