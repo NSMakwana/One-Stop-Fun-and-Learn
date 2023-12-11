@@ -58,7 +58,10 @@
                
         </div>
                 <div class="apple">
-                <image src="Apple-line drawing.png" height="220px" width="248px"></image>
+                <image src="Images/jug-line drawing.png" height="220px" width="248px"></image>
+        </div>
+        <div id="jug">
+
         </div>
         <div class="color pallet">
                 <table>
@@ -72,7 +75,7 @@
                         <tr>
                                 <td id="b"><button id="b3" type="button" style="height: 100px; width :113px; background-color:blue; outline-style: none;border:none;" onclick="function_blue()"></button>
                                 </td>
-                                <td id="r"><button id="b4" type="button"  style="height: 100px; width :113px; background-color:red; outline-style: none;border:none;"onclick="function_red()"></button>
+                                <td id="r"><button id="b4" type="button"  style="height: 100px; width :113px; background-color:#C0C0C0; outline-style: none;border:none;"onclick="function_red()"></button>
                                 </td>
                         </tr>
                         <tr>
@@ -196,8 +199,8 @@
                         b1.innerHTML='<div id="d1"style="color:red;font-size:180px;height:100px;width:115px;display:table-cell;text-align:center;line-height:75px;">x</div>';
                 }
                 function function_red(){
-                        var b1= document.getElementById("b4");
-                        b1.innerHTML='<canvas></canvas>';
+                        var b1= document.getElementById("jug");
+                        jug.innerHTML='<img src="Images/jug-color.png" height="220px" width="248px"></image>';
                 }
     </script>
 
