@@ -33,6 +33,31 @@ body{
     .Container::-webkit-scrollbar { 
         display: none;  
     }
+    .Container2{
+
+        margin-top:5%;
+        margin-left:5%;
+        margin-right:5%;
+        border:4px solid  rgb(230, 206, 110);
+        border-radius:8px;;
+        height:110px;
+        width: 1100px;
+        overflow-y:scroll;
+        position:absolute;
+        -ms-overflow-style: none;
+        background-color: #022331;
+        background-image:url("Images/book\ page.png");
+        background-repeat: no-repeat;
+        background-size:95% 100%;
+        background-position-x: center;
+        background-position-y: center;
+        padding-bottom: 0%;
+        
+
+    }
+    .Container2::-webkit-scrollbar { 
+        display: none;  
+    }
      /* for backbutton: */
      #back{
         background-color: transparent;
