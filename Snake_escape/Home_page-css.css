@@ -1,0 +1,44 @@
+html{
+    min-height:100%;
+    width:100%;
+
+}
+    body{
+
+        background-image: url('../Snake_escape/Images/Snake_Escape\ homepage.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center center;
+        overflow:hidden;
+       
+    
+    }
+#start{
+
+    margin-top: 17.5%;
+    margin-left:75%;
+    position: absolute;
+}
+#s{
+
+    height:80px;
+    width:250px;
+    background-color: transparent;
+    border:3px solid black;
+    border-radius: 8px;
+}
+#home{
+
+    margin-top: 27.5%;
+    margin-left:79%;
+    position: absolute;
+}
+#h{
+
+    height:110px;
+    width:150px;
+    background-color: transparent;
+    border:3px solid black;
+    border-radius: 8px;
+    border:none;
+}
