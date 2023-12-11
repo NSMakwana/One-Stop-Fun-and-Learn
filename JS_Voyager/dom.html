@@ -15,7 +15,8 @@
        <pre id="text">
      <strong>DOM:</strong><ul>
 <li>When you open a web page in your browser, the browser retrieves the page’s HTML text and parses it.</li>        
-<li>The browser builds up a model of the document’s structure and uses this model to draw the page on the screen.</li>
+<li>The browser builds up a model of the document’s structure and uses this model to draw the page on 
+the screen.</li>
 <li>This representation of the document is one of the toys that a JavaScript program has available in its 
 sandbox. It is a data structure that you can read or modify. It acts as a live data structure: when it’s modified,
 the page on the screen is updated to reflect the changes.</li>
@@ -37,9 +38,73 @@ properties, pointing at those elements.</li>
    <div id="ex">
     <h1>Examples</h1>
        <pre id="text">
+<p><ul>Example-1 demo</ul></p>
+My First Page
+p id="demo"> p
+document.getElementById("demo").innerHTML = "Hello World!";
+<p><ul>Example-2 Javascript html demo</ul></p>
+JavaScript HTML DOM
+id="intro">Finding HTML Elements by Id.
+This example demonstrates the b letElementsById /b method.
+ id="demo"
+const element = document.getElementById("intro");
+document.getElementById("demo").innerHTML = 
+"The text from the intro paragraph is: " + element.innerHTML;
+<p><ul>Example-3</ul></p>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+h2 JavaScript Validation /h2
+form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: input type="text" name="fname"
+  input type="submit" value="Submit"
+form
+<p><ul>Example-4</ul></p>
+JavaScript HTML DOM
+Hello World!
+Hello Norway!
+Click the button to change the color of all p elements.
+button onclick="myFunction()">Try it. button
+function myFunction() {
+  const myNodelist = document.querySelectorAll("p");
+  for (let i = 0; i < myNodelist.length; i++) {
+    myNodelist[i].style.color = "red";
+  }
+}
+<p><ul>Examples-5 html dom</ul></p></ul>
+h2 JavaScript HTML DOM /h2
+p Changing the HTML style: /p
+p id="p1">Hello World! /p
+p id="p2">Hello World! /p
+document.getElementById("p2").style.color = "blue";
+document.getElementById("p2").style.fontFamily = "Arial";
+document.getElementById("p2").style.fontSize = "larger";
+<p><ul>Examples-5 Animation</p></ul>
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+</style>
+<body>
 
-        
-       </pre>
+<h2>My First JavaScript Animation</h2>
+
+<div id="container">
+<div id="animate"></div>
+</div>
+</pre>
       
 
    </div>
