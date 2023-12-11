@@ -1,0 +1,68 @@
+                 html{
+                            min-height:100%;
+                            width:100%;
+            
+                        }
+                        /* for background-image:*/
+
+                    body{
+
+                            background-image: url('../K_for_Kidz/Images/Puzzle\ BG1.png');
+                            background-repeat: no-repeat;
+                            background-size:cover;
+                            background-position:center center;
+                            height:100%;
+                            overflow:hidden;
+                        
+                        }
+
+                        /*for adjusting title position:*/
+
+                   .title{
+                            position:absolute;
+                            right:20%;
+                            width:auto;
+                            padding:10px; 
+                            margin:0;
+                            top:20%;
+
+                            font-size:70px;
+                      }
+
+                      /*for adjusting logo position:*/
+
+                 .logo{
+                            position:absolute;
+                            left:10%;
+                            margin:0;
+                            top:30%;
+
+                      }
+
+                      /*for adjusting play button position:*/
+           
+                .play{
+
+                            position:absolute;
+                            right:10%; 
+                            margin:0; 
+                            top:47%;
+                            opacity:0;
+                            animation-name:start;
+                            animation-duration:1s;
+                            animation-iteration-count:infinite;
+                }
+
+                /*To give blinking effect to the play button*/
+
+                @keyframes start
+                {
+                    50%{opacity:1;}
+                }
+
+                a{
+                        text-decoration: none;
+                        color:black;
+                 }
+            
+       

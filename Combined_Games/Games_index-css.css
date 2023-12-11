@@ -1,0 +1,124 @@
+body{
+            background-color: black;
+}
+#home{
+  margin-top: 0%;
+  margin-left: 0%;
+  position: absolute;
+}
+.container{
+    margin-top:3.5%;
+    margin-left:5%;
+    margin-right:5%;
+    
+    border:4px solid white;
+    border-radius:8px;;
+    height:500px;
+    width: 1090px;
+    position:absolute;
+    font-size: larger;
+    color:white;
+}
+#k_for_kids{
+    margin-top:2%;
+    margin-left:2%;
+    margin-right:5%;
+    
+    border:4px solid white;
+    border-radius:8px;
+    height:210px;
+    width: 500px;
+    position:absolute;
+    font-size: larger;
+    color:white;
+    padding:0%;
+    animation-name:zoom-kidz;
+    animation-duration:3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+#js_voyager{
+    margin-top:2%;
+    margin-left:51%;   
+    border:4px solid white;
+    border-radius:8px;
+    height:210px;
+    width: 500px;
+    position:absolute;
+    font-size: larger;
+    color:white;
+    animation-name:zoom-js;
+    animation-duration:3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    /* animation-delay:1s; */
+    
+}
+#snake_escape{
+
+    margin-top:24%;
+    margin-left:26.5%;    
+    border:4px solid white;
+    border-radius:8px;;
+    height:210px;
+    width: 500px;
+    position:absolute;
+    font-size: larger;
+    color:white;
+    padding-left: 0%;
+    animation-name:zoom-snake;
+    animation-duration:3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    /* animation-delay:2s; */
+    
+
+}
+#kids{
+    margin:0%;
+    padding: 0%;
+}
+
+#snake{
+    margin-left:-2%;
+
+}
+/* animation to k for kidz block */
+@keyframes zoom-kidz{
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  /* animation to  js voyager block */
+@keyframes zoom-js{
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+
+  /* animation to snake escape block */
+@keyframes zoom-snake{
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
