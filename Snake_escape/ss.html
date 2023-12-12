@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>proj2</title>
+        <link rel="stylesheet" href="style11.css">
+
+    </head>
+    <body class="body" onload="idleanimationstart(); createboxes();" onkeypress="keycheck(event);">
+        <div class="background" id="background">
+            <img src="freeknight/png/Idle (1).png" class="girl" id="girl">
+
+            <div class="score" id="score">0</div>
+
+        </div>
+        <div class="end" id="end">
+            <div style="color: rgb(251,255,11);">GAME OVER </div>
+            <div style="color: rgb(145,189,0);">Your Score </div>
+            <div style="color: rgb(54,200,223);" id="endscore">0</div>
+            <button class="btn" onclick="reload();">Try Again</button>
+
+        </div>
+        <script src="script11.js"></script>
+    </body>
+</html>
