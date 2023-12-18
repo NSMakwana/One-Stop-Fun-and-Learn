@@ -48,12 +48,12 @@ function jumpanimation(){
     jumpImageNumber=jumpImageNumber+1;
 
     if(jumpImageNumber<=6){
-        girlMarginTop=girlMarginTop-35;
+        girlMarginTop=girlMarginTop-45;
         girl.style.marginTop=girlMarginTop+"px";
     }
 
     if(jumpImageNumber>=7){
-        girlMarginTop=girlMarginTop+35;
+        girlMarginTop=girlMarginTop+45;
         girl.style.marginTop=girlMarginTop+"px";
     }
     
@@ -72,7 +72,7 @@ function jumpanimationstart(){
     clearInterval(idleanimationnum);
     runImageNumber=0;
     clearInterval(runanimationnum);
-    jumpanimationnum=setInterval(jumpanimation,100);
+    jumpanimationnum=setInterval(jumpanimation,200);
 }
 
 function keycheck(event){
